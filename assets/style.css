@@ -6,3 +6,7 @@ img{
   width: 300px;
   height: 300px;
 }
+
+dd{
+  margin-bottom: 15px;
+}
