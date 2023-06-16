@@ -14,17 +14,33 @@
 </head>
 
 <body>
+
+  <h1>Practicando con enlaces internos</h1>
+  <h2 id="inicio">Temario curso</h2>
+  <ul>
+    <li><a href="#imagenes">Imágenes</a></li>
+    <li><a href="#figuras">Figuras</a></li>
+    <li><a href="#listas">Listas</a></li>
+    <li><a href="#listas-definicion">Listas de definición</a></li>
+    <li><a href="#tabla-datos">Tabla de datos</a></li>
+    <li><a href="#enlaces">Enlaces</a></li>
+    <li><a href="#elementos-interactivos">Elementos interactivos</a></li>
+    <li><a href="#audio-video">Audio y Video</a></li>
+  </ul>
+
   <hr>
 
-  <h2>Imágenes</h2>
+  <h2 id="imagenes">Imágenes</h2>
   <img src="img/Mario-Bros.png" alt="mario bros">
   <img src="img/pez.jpg" alt="pez koi">
   <img src="img/undraw_cat_epte.svg" alt="cat">
   <img src="img/gif-animados-ejemplo.gif" alt="animación">
 
+  <a href="#inicio">🔼</a>
+
   <hr>
 
-  <h2>Figuras</h2>
+  <h2 id="figuras">Figuras</h2>
   <figure>
     <img src="img/Mario-Bros.png" alt="mario bros">
     <figcaption>
@@ -32,8 +48,11 @@
     </figcaption>
   </figure>
 
+  <a href="#inicio">🔼</a>
+
   <hr>
-  <h2>Listas</h2>
+
+  <h2 id="listas">Listas</h2>
   <h3>Listas ordenadas</h3>
   <ol>
     <li>Primavera</li>
@@ -56,9 +75,11 @@
     <li>Invierno</li>
   </ul>
 
+  <a href="#inicio">🔼</a>
+
   <hr>
 
-  <h2>Listas de definición</h2>
+  <h2 id="listas-definicion">Listas de definición</h2>
   <dl>
     <dt>HTML</dt>
     <dd>Lenguaje de etiquetas</dd>
@@ -68,9 +89,11 @@
     <dd>Lenguaje de la web (programación)</dd>
   </dl>
 
+  <a href="#inicio">🔼</a>
+
   <hr>
 
-  <h2>Tabla de datos</h2>
+  <h2 id="tabla-datos">Tabla de datos</h2>
   <table>
     <tr>
       <td>Nombre</td>
@@ -135,9 +158,11 @@
     </tfoot>
   </table>
 
+  <a href="#inicio">🔼</a>
+
   <hr>
 
-  <h2>Enlaces</h2>
+  <h2 id="enlaces">Enlaces</h2>
   <a href="saludo.html">¿Te saludo?</a>
   <br><br>
   <a href="https://www.google.com" target="_blank" rel="nofollow">Ir a google.com</a>
@@ -146,7 +171,53 @@
     <img src="img/Mario-Bros.png" alt="mario bros" width="30px" height="30px">
   </a>
 
+  <br><br>
+
+  <a href="https://api.whatsapp.com/send?phone=573107154604&text=Hola guapo">Enviar whatsapp</a>
+
+  <br>
+
+  <a href="#inicio">🔼</a>
+
   <hr>
+
+  <h2 id="elementos-interactivos">Elementos interactivos</h2>
+  <button onclick="alert('holitas pulsaste el botón')">Soy un botón</button>
+
+  <details open>
+    <summary>Título acordionero</summary>
+    <article>
+      <h3>Contenido del acordión</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aperiam nemo exercitationem sit, odit eligendi
+        quos id nulla officia libero similique culpa autem laudantium alias nostrum provident officiis, corrupti
+        sapiente.</p>
+    </article>
+  </details>
+  <details>
+    <summary>Título acordionero</summary>
+    <article>
+      <h3>Contenido del acordión</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aperiam nemo exercitationem sit, odit eligendi
+        quos id nulla officia libero similique culpa autem laudantium alias nostrum provident officiis, corrupti
+        sapiente.</p>
+    </article>
+  </details>
+
+  <dialog open>
+    Ventana modal abierta
+  </dialog>
+
+  <a href="#inicio">🔼</a>
+
+  <hr>
+
+  <h2 id="audio-video">Audio y Video</h2>
+  <video src="media/VID_20211129_173510.mp4" width="500px" height="content" controls preload poster="img/pez.jpg"></video>
+
+  <a href="#inicio">🔼</a>
+
+  <hr>
+
 </body>
 
 </html>
