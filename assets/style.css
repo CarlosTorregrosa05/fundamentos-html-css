@@ -14,3 +14,8 @@ img, video{
 dd{
   margin-bottom: 15px;
 }
+
+iframe{
+  width: 80%;
+  height: 400px;
+}
