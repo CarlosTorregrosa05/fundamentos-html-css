@@ -27,6 +27,7 @@
     <li><a href="#elementos-interactivos">Elementos interactivos</a></li>
     <li><a href="#audio-video">Audio y Video</a></li>
     <li><a href="#iframes">iFrames</a></li>
+    <li><a href="#formulario">Formulario</a></li>
   </ul>
 
   <hr>
@@ -232,7 +233,118 @@
 
   <iframe src="media/emmet-cheat-sheet.pdf" frameborder="0"></iframe>
 
-  
+  <a href="#inicio">🔼</a>
+
+  <hr>
+
+  <h2 id="formulario">Formulario</h2>
+
+  <h3>Elementos</h3>
+
+  <input type="text" placeholder="texto">
+  <br>
+  <input type="checkbox">
+  <br>
+  <input type="radio">
+  <br>
+  <input type="date">
+  <br>
+  <input type="color">
+  <br>
+  <input type="button" value="botón">
+  <br>
+  <input type="submit" value="enviar">
+  <br>
+  <input type="reset">
+  <br>
+  <input type="file">
+  <br>
+  <input type="file" multiple>
+  <br>
+  <input type="hidden">
+  <br>
+  <input type="email" placeholder="email">
+  <br>
+  <input type="number" placeholder="numeros">
+  <br>
+  <input type="tel" placeholder="telefono">
+  <br>
+  <input type="password" placeholder="contraseña">
+  <br>
+  <input type="search" placeholder="buscar">
+  <br>
+  <textarea cols="30" rows="10"></textarea>
+  <br>
+  <select name="" id="" multiple>
+    <option value="">HTML</option>
+    <option value="">HTML2</option>
+    <option value="">HTML3</option>
+    <option value="">HTML</option>
+    <option value="">HTML2</option>
+    <option value="">HTML3</option>
+  </select>
+  <br>
+  <br><br>
+  <h3>Ejemplo formulario</h3>
+  <h4>Login form</h4>
+  <form action="">
+    <label for="usuario">Usuario: </label>
+    <input type="text" name="usuario" id="usuario" placeholder="usuario" pattern="^[A-Z]+$" required>
+    <br>
+    <label for="password">Password: </label>
+    <input type="password" name="password" id="password" placeholder="contraseña" required>
+    <input type="submit">
+    <br>
+    <input type="reset">
+  </form>
+  <a href="#inicio">🔼</a>
+
+  <hr>
+
+  <h4>Selects, Radios y Checkbox</h4>
+  <h5>Select</h5>
+  <form>
+    <p>Elige tu idioma:</p>
+    <select name="idioma" required>
+      <option value="" selected>Selecciona una opción...</option>
+      <option value="es">Español</option>
+      <option value="en">Inglés</option>
+      <option value="fr">Francés</option>
+      <option value="it">Italiano</option>
+      <option value="pt">Portugués</option>
+    </select>
+    <input type="submit"><input type="reset">
+  </form>
+
+  <h5>Radios</h5>
+  <p>Elige tu lenguaje de programación favorito:</p>
+  <label><input type="radio" name="lenguaje" value="js" checked>JavaScript</label>
+  <label><input type="radio" name="lenguaje" value="py">Python</label>
+  <label><input type="radio" name="lenguaje" value="php">PHP</label>
+
+  <h5>Checkbox</h5>
+  <p>Elige tus intereses:</p>
+  <label>
+    <input type="checkbox" name="intereses" value="deportes">
+    Deportes
+  </label>
+  <label>
+    <input type="checkbox" name="intereses" value="finanzas">
+    Finanzas
+  </label>
+  <label>
+    <input type="checkbox" name="intereses" value="salud">
+    Salud
+  </label>
+  <label>
+    <input type="checkbox" name="intereses" value="politica">
+    Política
+  </label>
+  <a href="#inicio">🔼</a>
+
+  <hr>
+
+  <h4>Formulario de Contacto</h4>
 
   <a href="#inicio">🔼</a>
 

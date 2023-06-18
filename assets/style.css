@@ -19,3 +19,7 @@ iframe{
   width: 80%;
   height: 400px;
 }
+
+input{
+  accent-color: green;
+}
