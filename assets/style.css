@@ -7,8 +7,9 @@ body{
 }
 
 img, video{
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
 }
 
 dd{
@@ -21,5 +22,5 @@ iframe{
 }
 
 input{
-  accent-color: green;
+  accent-color: #51a551;
 }
